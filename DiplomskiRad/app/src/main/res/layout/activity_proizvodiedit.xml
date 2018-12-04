@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context="nenad2379.diplomskirad.ProizvodEdit">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nazivProizvodaEdit"
+        android:hint="Naziv proizvoda"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stanjeEdit"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:hint="Trenutno stanje"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/minimumEdit"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:hint="Minimum"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context="nenad2379.diplomskirad.ProizvodEdit">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rok trajanja"
+            android:width="200dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/rokEdit"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/datumEdit"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Dodaj datum"
+            android:background="#ff6347"
+            android:textColor="#fff"
+            android:width="130dp"
+            android:height="10dp"
+            android:onClick="showDatePickerDialog" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dodajProizvodEdit"
+        android:layout_marginTop="20dp"
+        android:background="#ff6347"
+        android:textColor="#fff"
+        android:text="Sačuvaj izmene"/>
+
+
+
+
+</LinearLayout>
+    </ScrollView>

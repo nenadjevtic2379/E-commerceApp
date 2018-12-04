@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/NetBeansProjects/RestFul/src/java/ecommerce/Userrole.java</file>
+            <file>file:/D:/NetBeansProjects/RestFul/src/java/ecommerce/service/UserroleFacadeREST.java</file>
+            <file>file:/D:/NetBeansProjects/RestFul/nbproject/build-impl.xml</file>
+            <file>file:/D:/NetBeansProjects/RestFul/src/java/ecommerce/service/ProdavnicaFacadeREST.java</file>
+            <file>file:/D:/NetBeansProjects/RestFul/src/java/ecommerce/Prodavnica.java</file>
+            <file>file:/D:/NetBeansProjects/RestFul/src/java/ecommerce/service/ApplicationConfig.java</file>
+            <file>file:/D:/NetBeansProjects/RestFul/web/WEB-INF/glassfish-resources.xml</file>
+            <file>file:/D:/NetBeansProjects/RestFul/src/java/ecommerce/service/AbstractFacade.java</file>
+            <file>file:/D:/NetBeansProjects/RestFul/src/java/ecommerce/service/ProizvodFacadeREST.java</file>
+            <file>file:/D:/NetBeansProjects/RestFul/src/java/ecommerce/service/AuthenticationServiceREST.java</file>
+            <file>file:/D:/NetBeansProjects/RestFul/src/java/ecommerce/service/UserFacadeREST.java</file>
+        </group>
+    </open-files>
+</project-private>

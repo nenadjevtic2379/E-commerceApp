@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="nenad2379.diplomskirad.Home"
+
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addProdavnica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff6347"
+        android:text="Dodaj prodavnicu"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logUser"
+        android:textSize="20dp"
+        android:gravity="right"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/naslov1"
+        android:layout_marginTop="30dp"
+        android:text="Vaše prodavnice"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <!--  <Button
+          android:id="@+id/btnLogout"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dip"
+          android:background="#ff6347"
+
+          android:text="Logout"
+          android:textColor="#fff" /> -->
+
+
+    <ListView
+    android:id="@+id/android_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>
