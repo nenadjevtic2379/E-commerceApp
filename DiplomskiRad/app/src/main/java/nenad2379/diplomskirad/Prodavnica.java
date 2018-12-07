@@ -192,7 +192,7 @@ public class Prodavnica extends AppCompatActivity{
             @Override
             public void onClick(View v) {
 
-            if (!et.getText().toString().matches("")) {
+            if (!et.getText().toString().matches("") && s1.getSelectedItem() != null) {
 
                 try {
                     obj.put("nazivProdavnica", et.getText().toString());

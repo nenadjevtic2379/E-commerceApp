@@ -82,7 +82,7 @@ public class AuthenticationServiceREST {
     @Produces(MediaType.TEXT_HTML)
     public String register(@FormParam("username") String username, @FormParam("password") String password,
             @FormParam("id_role") int idRole, @FormParam("ime") String ime, @FormParam("prezime") String prezime,
-            @FormParam("jmbg") String jmbg, @FormParam("email") String email, @FormParam("addedBy") String addedBy) {
+            @FormParam("jmbg") String jmbg, @FormParam("email") String email, @FormParam("added_by") String addedBy) {
         String result = "false";
         int x = 0;
 
@@ -96,7 +96,7 @@ public class AuthenticationServiceREST {
             ResultSet rs = st.executeQuery();
 
             if (!rs.next()) {
-                PreparedStatement ps = con.prepareStatement("insert into user(username, password, id_role, ime, prezime, jmbg, email, addedBy) values(?,?,?,?,?,?,?,?)");
+                PreparedStatement ps = con.prepareStatement("insert into user(username, password, id_role, ime, prezime, jmbg, email, added_by) values(?,?,?,?,?,?,?,?)");
                 ps.setString(1, username);
                 ps.setString(2, password);
                 ps.setInt(3, 1);
